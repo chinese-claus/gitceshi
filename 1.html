@@ -12,9 +12,12 @@
 <span></span>
 <script>
 	var div=document.getElementById('box');
-	div.onclick=function(){
-		alert('你点我了');
-	}
+	var h1=document.getElementsByTagName('h1')[0];
+//	function animate(div){
+		div.onclick=function(){
+			h1.style.display='none';
+		}
+//	}
 </script>
 </body>
 </html>
